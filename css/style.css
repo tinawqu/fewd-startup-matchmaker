@@ -6,12 +6,12 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 /* Center the container */
@@ -21,10 +21,10 @@
 }
 
 #header{
-background-color: black;
-width: 100%;
-border-bottom:5px solid yellow;
-overflow: hidden;
+  background-color: black;
+  width: 100%;
+  border-bottom:5px solid yellow;
+  overflow: hidden;
 }
 
 #header h1{
@@ -43,10 +43,10 @@ overflow: hidden;
 }
 
 #tagline{
-background-color: #eeeeee;
-width: 100%;
-padding:20px;
-text-align: center;
+  background-color: #eeeeee;
+  width: 100%;
+  padding:20px;
+  text-align: center;
 }
 
 ul{
@@ -66,13 +66,13 @@ img{
 }
 
 #main{
-width: 100%;
-border:5px solid black;
-background: url(../images/coworking.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-overflow: hidden;
-padding: 30px;
+  width: 100%;
+  border:5px solid black;
+  background: url(../images/coworking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 30px;
 }
 
 .meet{
@@ -111,7 +111,7 @@ padding: 30px;
 }
 
 #actions{
-width: 100%;
+  width: 100%;
 
 }
 
@@ -126,10 +126,10 @@ width: 100%;
   padding: 20px 10px;
 }
 #footer{
-width: 100%;
-background-color: black;
-overflow: auto;
-color: white;
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  color: white;
 }
 
 @media screen and (max-width:800px){
